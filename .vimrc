@@ -1,3 +1,9 @@
+" vim-plug
+call plug#begin('~/.vim/plugged')
+" vim theme
+Plug 'https://github.com/ayu-theme/ayu-vim'
+call plug#end()
+
 syntax enable       " enable syntax processing
 set tabstop=4       " number of visual spaces per TAB
 set softtabstop=4   " number of spaces in tab when editing
@@ -7,11 +13,13 @@ set showmatch       " highlight matching brackets, parentheses, braces
 set incsearch       " search as characters are entered
 set hlsearch        " highlight matches
 syntax on           " syntax highlighting
-colorscheme onedark " fancy theme
 set paste           " paste as copied
 set nowrap          " do not wrap long lines
 set colorcolumn=80  " highlight 80 character line
 set mouse=a         " mouse can move cursor
+set termguicolors   " enable true colors support
+let ayucolor="dark" " dark version of the theme
+colorscheme ayu     " theme to use
 
 " highlight extra whitespace
 highlight ExtraWhitespace ctermbg=red guibg=red
@@ -27,3 +35,4 @@ function! WordProcessor()
   setlocal spell spelllang=en_us
 endfunction
 com! WP call WordProcessor()
+
