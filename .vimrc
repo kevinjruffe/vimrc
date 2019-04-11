@@ -20,6 +20,7 @@ set mouse=a         " mouse can move cursor
 set termguicolors   " enable true colors support
 let ayucolor="dark" " dark version of the theme
 colorscheme ayu     " theme to use
+filetype indent off " counteract the autoindent in the theme
 
 " highlight extra whitespace
 highlight ExtraWhitespace ctermbg=red guibg=red
