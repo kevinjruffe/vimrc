@@ -2,8 +2,6 @@
 call plug#begin('~/.vim/plugged')
 " vim theme
 Plug 'https://github.com/ayu-theme/ayu-vim'
-" NERD Commenter
-Plug 'scrooloose/nerdcommenter'
 call plug#end()
 
 syntax enable       " enable syntax processing
