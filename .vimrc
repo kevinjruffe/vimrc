@@ -2,6 +2,8 @@
 call plug#begin('~/.vim/plugged')
 " vim theme
 Plug 'https://github.com/ayu-theme/ayu-vim'
+" syntax highlighting for JSX
+Plug 'mxw/vim-jsx'
 call plug#end()
 
 syntax enable       " enable syntax processing
