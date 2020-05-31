@@ -15,6 +15,7 @@ filetype indent off            " no autoindent
 set colorcolumn=80             " highlight 80 character line
 set mouse=a                    " mouse can move cursor
 set backspace=eol,indent,start " can use backspace always
+set relativenumber             " make line numbers relative
 
 " highlight extra whitespace
 highlight ExtraWhitespace ctermbg=red guibg=red
