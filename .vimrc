@@ -16,6 +16,7 @@ set colorcolumn=80             " highlight 80 character line
 set mouse=a                    " mouse can move cursor
 set backspace=eol,indent,start " can use backspace always
 set relativenumber             " make line numbers relative
+set clipboard=unnamedplus      " use system clipboard for yank / paste
 
 " highlight extra whitespace
 highlight ExtraWhitespace ctermbg=red guibg=red
